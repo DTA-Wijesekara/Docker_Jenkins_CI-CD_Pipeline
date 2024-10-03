@@ -5,7 +5,7 @@ pipeline {
         stage('SCM Checkout') {
             steps {
                 retry(3) {
-                    git branch: 'main', url: 'https://github.com/HGSChandeepa/test-node'
+                    git branch: 'main', url: 'https://github.com/DTA-Wijesekara/Docker_Jenkins_CI-CD_Pipeline.git'
                 }
             }
         }
